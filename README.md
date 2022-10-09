@@ -115,4 +115,95 @@ C. Limit access to kubernetes control plane from management VMs
 D. Both B and C
 ```
 
+# DevSecOps Case Study
 
+### Overview
+```
+Insurance company, Contoso was hindered by its traditional monolithic architecture, which could not meet the rapid growth 
+of business needs in the digital era. Its legacy core systems were a barrier to digital innovation, a barrier to launching 
+new products across new channels, and a barrier delivering a better user experience. 
+```
+
+### Challenges
+```
+In the digital era, Contoso faces the three ‘Vs’: 
+1. Big transaction VOLUME
+2. VELOCITY to market
+3. VARIANCE of different insurance products and channels
+```
+
+### Planned Change
+```
+1. To drive digital transformation, Contoso planned to migrate core processes from its traditional monolith to a microservice-based architecture leveraging multiple cloud native projects, with Kubernetes as the backbone across multiple clouds.
+2. Ensure consistent developer experience across multiple cloud platforms
+```
+
+### Technical Requirements
+```
+1. All container images must comply with the Contoso's custom security policy benchmark
+2. Shift security left in the development process
+3. Zero downtime deployments
+4. Reduce deployment frequency from monthly to daily
+```
+
+#### Question # 1 (Multiple Choice)
+Answer the following question based on the information presented in the case study.
+```
+Which Kubernetes feature must is used to address challenge #1?
+A. Cluster auto-scaling
+B. Replica sets
+C. Horizontal pod-autoscaling
+D. Both A and C
+```
+
+#### Question # 2 (Multiple Choice)
+Answer the following question based on the information presented in the case study.
+```
+Which of the below tools must be implemented for the planned change #2?
+
+A. K8s Deployments
+B. Use GitOps to build an automated CI/CD framework
+C. Static Code analysis 
+D. Both B and C
+```
+
+#### Question # 3 (Multiple Choice)
+Answer the following question based on the information presented in the case study.
+```
+You need to implement the technical requirement #1.
+
+What should you do?
+
+A. Avoid container images with root access
+B. Private endpoints for container registries
+C. Perodic image scans using Qualys
+D. Both B and C
+```
+
+#### Question # 4 (Multiple Choice)
+Answer the following question based on the information presented in the case study.
+```
+You need to implement the technical requirement #2.
+
+What should you do?
+
+A. Use an external KMS to store application secrets
+B. Secure Code analysis during CI
+C. Zero Trust Networks
+D. Both A and B
+E. Both B and C
+```
+
+#### Question # 5 (Multiple Choice)
+Answer the following question based on the information presented in the case study.
+```
+You need to implement the technical requirement #3.
+
+What should you do?
+
+A. Use CI/CD pipelines for build and deploy stages
+B. Use a rolling update strategy for deployments
+C. Use readiness and liveness probes
+D. Both A and B
+E. Both B and C
+```
