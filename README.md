@@ -2,7 +2,7 @@
 
 ### Overview
 ```
-Contoso is a leading retail e-commerce company for families in Europe, with plans to accelerate the 
+Contoso is a leading online bank in Europe, with plans to accelerate the 
 development of new products and services worldwide. “Our technology platform must be a business enabler. 
 That starts by removing limiting factors,” said the Director of Architecture & Technology. 
 ```
