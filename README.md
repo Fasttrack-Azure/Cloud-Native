@@ -85,7 +85,7 @@ What can be done to implement Technical requirement #3 in context of SQL VMs?
 
 A. Consolidate the three SQL servers into one
 B. Migrate the SQL databases from VMs into managed SQL PaaS
-C. Migrate to Oracke Databases
+C. Migrate to Oracle Databases
 D. None of the above
 ```
 
